@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Hired Inspiration",
+  "description": "Stories from the Lambda School #Hired channel to inspire you when you need it most",
+  "version": "1",
+  "author": "Steven Vandenburg",
+  "browser_action": {
+    "default_icon": "./hi-logo.png",
+    "default_title": "Have a good day"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"]
+}
